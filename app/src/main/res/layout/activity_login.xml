@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#00bcd4">
+
+
+<EditText
+        android:id="@+id/isim_soyisim_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsminizi Giriniz" />
+
+    <EditText
+        android:id="@+id/ogr_no_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sifrenizi Giriniz" />
+
+    <Switch
+        android:id="@+id/beni_hatirla_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beni Hatırla" />
+
+    <TextView
+        android:id="@+id/giris_basarili_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Giriş Başarılı" />
+
+
+</LinearLayout>
